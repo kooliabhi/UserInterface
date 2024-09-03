@@ -1,0 +1,13 @@
+.gallery-image {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* Adjust padding and margin to match design */
+  padding: 5px;
+}
+
+.gallery-image:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
